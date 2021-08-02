@@ -11,7 +11,7 @@ function App() {
     <div className="app">
       <Router>
         <Switch>
-          <Route path="/chat/:person">
+          <Route path="/chat/Roy">
             <Header backButton="/chats" />
             <ChatScreen />
           </Route>
