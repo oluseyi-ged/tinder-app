@@ -7,13 +7,14 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 function App() {
   return (
     <div className="app">
-      <Header />
       <Router>
         <Switch>
-          <Route path="/chat">
+          <Route path="/chats">
+            <Header backButton="/" />
             <h1>a chat</h1>
           </Route>
           <Route path="/">
+            <Header />
             <TinderCards />
             <SwipeButtons />
           </Route>
