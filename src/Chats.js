@@ -19,14 +19,14 @@ function Chats() {
       />
       <Chat
         name="Buhari"
-        message="Would you mind being second lady"
+        message="Good Epening... Would you like to be second lady?"
         timestamp="1 hour ago"
         profilePic="https://i2.wp.com/nairametrics.com/wp-content/uploads/2020/03/President-Muhammadu-Buhari.jpg?resize=750%2C375&ssl=1"
       />
       <Chat
         name="Jesus"
         message="Choose Roy. Every other guy is a scam"
-        timestamp="1 hour ago"
+        timestamp="3 days ago"
         profilePic="https://insidearabia.com/wp-content/uploads/2021/04/For-those-seeking-to-understand-the-life-of-Jesus-exploring-the-Middle-East-gives-a-distinct-glimpse-into-the-world-he-grew-up-in.-1200x640.jpg"
       />
     </div>
