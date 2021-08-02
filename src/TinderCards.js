@@ -1,12 +1,13 @@
 import React from "react"
 import TinderCard from "react-tinder-card"
-import { useState } from "react"
+import { useState, useEffect } from "react"
+import database from "./firebase"
 import "./TinderCards.css"
 
 function TinderCards() {
   const [people, setPeople] = useState([
     {
-      name: "jack dorsey",
+      name: "jack twitter",
       url: "https://dailypost.ng/wp-content/uploads/2021/01/twitter-ceo-jack-dorsey-says-download-signal-as-us-protests-gain-steam-1024x768.jpg.webp",
     },
     {
@@ -14,6 +15,9 @@ function TinderCards() {
       url: "https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2021/07/20150224165308-jeff-bezos-amazon.jpeg?resize=1140%2C570&ssl=1",
     },
   ])
+
+  useEffect(() => {}, [])
+
   return (
     <div className="tinderCards">
       <div className="tinderCards__cardContainer">
